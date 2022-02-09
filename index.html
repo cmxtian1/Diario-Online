@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER-->
+    <div class='header'>
+        <div class='container'>
+                <h1>Dear Diary</h1>
+                <h4>2022</h4>
+        </div>
+    </div>
+
+    <!--CALENDAR-->
+    <div class='calendar'>
+        <div class='container'>
+            <div class='boxF'>
+                <div onclick="pagMes()" class='mes'>
+                    <h3>Janeiro</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Fevereiro</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Março</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Abril</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Maio</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Junho</h3>
+                </div>
+            </div>
+            <div class='boxS'>
+                <div class='mes'>
+                    <h3>Julho</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Agosto</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Setembro</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Outubro</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Novembro</h3>
+                </div>
+                <div class='mes'>
+                    <h3>Dezembro</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!--colocar aqui os meses q vao ficar na pagina principal
+        deixar cada mes em uma div e ao passar a mao colocar um hover
+qnd o usuario clicar em um mes vai passar p outra pagina com todos os dias
+clicando no dia especifico o usuario poderá colocar se o dia foi bom ou ruim atraves de lista
+vai ter a text area p poder escrever sobre o dia e uma lista com o humor-->
+
+<script>
+    function pagMes(){
+        window.location = 'janeiro.html'
+    }
+</script>
